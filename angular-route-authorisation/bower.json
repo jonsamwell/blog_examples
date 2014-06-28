@@ -1,0 +1,28 @@
+{
+  "name": "angular-route-authorisation",
+  "version": "0.0.0",
+  "description": "A demo application to demonstrate how to do route authorisation in AngularJS",
+  "main": "index.html",
+  "keywords": [
+    "angularjs",
+    "route-authorisation"
+  ],
+  "authors": [
+    "Jon Samwell <jonsamwell@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.jonsamwell.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.18",
+    "bootstrap": "~3.1.1",
+    "angular-route": "~1.2.18",
+    "font-awesome": "~4.1.0"
+  }
+}

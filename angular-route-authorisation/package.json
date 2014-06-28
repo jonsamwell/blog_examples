@@ -1,0 +1,11 @@
+{
+  "name": "angular-route-authorisation",
+  "version": "0.0.0",
+    "description": "A demo application to demonstrate how to do route authorisation in AngularJS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon Samwell <jonsamwell@gmail.com>",
+    "license": "MIT",
+}
