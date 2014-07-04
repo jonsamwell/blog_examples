@@ -34,7 +34,7 @@
 
                         defer.resolve(currentUser);
                         eventbus.broadcast(jcs.modules.auth.events.userLoggedIn, currentUser);
-                    }, 2000);
+                    }, 1000);
 
                     return defer.promise;
                 },

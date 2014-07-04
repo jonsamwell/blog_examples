@@ -30,15 +30,15 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
-            <ul class="nav nav-sidebar">
-                <li class="active"><a href="#/home">Home</a></li>
-                <li><a href="#/users">Users <small>(Needs Admin Role)</small></a></li>
-                <li><a href="#/home">Some Other Page <small>(Needs Editor Role)</small></a></li>
-                <li><a href="#/logout">Logout</a></li>
-            </ul>
-        </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" ng-view="">
+        <!--<div class="col-sm-3 col-md-2 sidebar">-->
+            <!--<ul class="nav nav-sidebar">-->
+                <!--<li class="active"><a href="#/home">Home</a></li>-->
+                <!--<li><a href="#/users">Users <small>(Needs Admin Role)</small></a></li>-->
+                <!--<li><a href="#/home">Some Other Page <small>(Needs Editor Role)</small></a></li>-->
+                <!--<li><a href="#/logout">Logout</a></li>-->
+            <!--</ul>-->
+        <!--</div>-->
+        <div class="col-md-8 col-md-offset-2 main" ng-view="">
         </div>
     </div>
 </div>
@@ -57,6 +57,7 @@
 <script type="application/javascript" src="js/modules/auth/services/authentication.js"></script>
 <script type="application/javascript" src="js/modules/auth/services/authorization.js"></script>
 <script type="application/javascript" src="js/modules/auth/controllers/loginCtrl.js"></script>
+<script type="application/javascript" src="js/modules/auth/directives/access.js"></script>
 <script type="application/javascript" src="js/modules/auth/module.auth.run.js"></script>
 
 <script type="application/javascript" src="js/modules/admin/module.admin.js"></script>
